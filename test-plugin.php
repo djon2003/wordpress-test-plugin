@@ -13,6 +13,7 @@ define('TEST_PLUGIN__PLUGIN_DIR', plugin_dir_path( __FILE__ ));
 define('TEST_PLUGIN__PLUGIN_URL', plugin_dir_url( __FILE__ ));
 
 // Do requires
+require_once(TEST_PLUGIN__PLUGIN_DIR . 'class.test-plugin.utils.php');
 require_once(TEST_PLUGIN__PLUGIN_DIR . 'class.test-plugin.widget.php');
 require_once(TEST_PLUGIN__PLUGIN_DIR . 'class.test-plugin.post-counter.php');
 require_once(TEST_PLUGIN__PLUGIN_DIR . 'class.test-plugin.php');
