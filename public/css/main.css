@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+.test-plugin-widget {
+	border: solid 1px black;
+	display: inline-block;
+}
+
+.test-plugin-widget-title {
+	display: none;
+}
+
+.entry-title .test-plugin-widget {
+	margin-right: 50px;
+}
+
+.entry-title .test-plugin-widget-title {
+	display: block;
+}
